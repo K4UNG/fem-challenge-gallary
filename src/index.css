@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+:root {
+  --dark-blue: #242936;
+  --cyan: #00E3B3;
+
+  --padding: 1.25rem 2rem;
+}
+
+::selection {
+  background-color: var(--cyan);
+  color: var(--dark-blue)
+}
+
+body {
+  background-color: var(--dark-blue);
+  color: var(--cyan);
+}
+
+.wrapper {
+  padding: var(--padding);
+  position: relative;
+}
