@@ -12,10 +12,11 @@
 
 .text {
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
     line-height: 30px;
     font-size: 1.1rem;
     font-weight: 300;
+    max-width: 500px;
 }
 
 .text a {
@@ -94,3 +95,76 @@
     transition: transform 200ms ease;
     transform-origin: right;
 }
+
+.background {
+    display: none;
+}
+
+@media (min-width: 680px) {
+    .bg {
+        display: none;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr .8fr;
+    }
+
+    .text {
+        margin: 2rem 0 0;
+    }
+
+    .text:first-of-type {
+        text-align: left;
+        width: 90%;
+    }
+
+    .text:last-of-type {
+        text-align: right;
+        width: 75%;
+        left: 200px;
+        position: relative;
+    }
+
+    .buttons {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 2rem 0;
+        position: relative;
+        z-index: -5;
+    }
+
+    .buttons br {
+        display: none;
+    }
+
+    .buttons::after {
+        content: '';
+        position: absolute;
+        background-color: var(--cyan);
+        width: 200%;
+        height: 1px;
+        top: calc(100% + 2rem);
+        left: -2rem;
+        opacity: .25;
+    }
+
+    .background {
+        display: block;
+        position: relative;
+    }
+
+    .background img {
+        width: calc(100% + 2rem);
+        height: calc(100% + 2rem);
+        position: absolute;
+        top: -2rem;
+        right: -2rem;
+        z-index: -1;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+

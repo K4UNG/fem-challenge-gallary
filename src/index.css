@@ -31,4 +31,5 @@ body {
 .wrapper {
   padding: var(--padding);
   position: relative;
+  overflow: hidden;
 }
