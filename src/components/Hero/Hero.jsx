@@ -1,19 +1,53 @@
 import styles from "./Hero.module.css";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function Hero() {
+  const parentVariant = {
+    animate: {
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 2.5
+      },
+    },
+  };
+
+  const childVariant = {
+    initial: {
+      opacity: 0,
+      y: -30
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: .6,
+        ease: [.33,-0.03,1,.99]
+      }
+    }
+  }
+
   return (
     <section className={styles.hero}>
-      <div className={styles.wrapper}>
+      <motion.div
+        className={styles.wrapper}
+        variants={parentVariant}
+        animate="animate"
+        initial="initial"
+      >
         <div className={styles.wrapper__inner}>
-          <img
+          <motion.img variants={childVariant}
             className={styles.bg}
             src="./images/mobile.svg"
             alt="mobile background pattern"
           />
-          <img className={styles.logo} src="./images/logo.svg" alt="logo" />
+          <motion.img variants={childVariant}
+            className={styles.logo}
+            src="./images/logo.svg"
+            alt="logo"
+          />
 
-          <p className={styles.text + " " + styles.text1}>
+          <motion.p variants={childVariant} className={styles.text + " " + styles.text1}>
             Hey there! My name is <span>Kaung Zin Hein</span> and I'm a frontend
             developer from Myanmar.{" "}
             <a
@@ -33,10 +67,10 @@ export default function Hero() {
               Frontend Mentor
             </a>
             .
-          </p>
+          </motion.p>
         </div>
 
-        <div className={styles.buttons}>
+        <motion.div variants={childVariant} className={styles.buttons}>
           <Link className={styles.button} to="/projects">
             view projects
           </Link>
@@ -49,21 +83,21 @@ export default function Hero() {
           >
             portfolio
           </a>
-        </div>
+        </motion.div>
 
         <div className={styles.text__wrapper}>
-          <p className={styles.text + " " + styles.text2}>
+          <motion.p variants={childVariant} className={styles.text + " " + styles.text2}>
             These challenges range from simple cards, landing pages to more
             advanced games and apps which tremendously helped me explore
             Frontend web during my early days.
-          </p>
+          </motion.p>
         </div>
-      </div>
+      </motion.div>
 
       <div className={styles.background}>
         <img src="./images/background.png" alt="background wave" />
         <svg
-        className={styles.kaung}
+          className={styles.kaung}
           width="70"
           height="344"
           viewBox="0 0 70 344"
