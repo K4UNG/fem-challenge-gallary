@@ -124,6 +124,7 @@
     font-weight: 600;
     text-decoration: none;
     position: relative;
+    outline: none;
 }
 
 .all::after {
@@ -139,7 +140,8 @@
     transition: transform 200ms ease;
 }
 
-.all:hover::after {
+.all:hover::after,
+.all:focus::after {
     transform: translateX(-50%) scaleX(0);
     transform-origin: right;
 }

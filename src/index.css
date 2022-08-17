@@ -33,3 +33,9 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+@media (min-width: 1120px) {
+  :root {
+    --padding: 3rem 2rem;
+  }
+}
