@@ -24,7 +24,7 @@ export default function Home() {
           scaleY: 0,
           transition: {
             duration: 1.2,
-            ease: [.33,-0.03,.57,.74],
+            ease: [.36,-0.02,.68,1],
             delay: 2,
           },
         }}

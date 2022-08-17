@@ -66,6 +66,7 @@ body {
   height: 100%;
   background-color: var(--dark-blue);
   left: 0;
+  transform-origin: bottom;
 }
 
 @media (min-width: 1120px) {
