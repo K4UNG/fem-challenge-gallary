@@ -94,4 +94,8 @@ body {
   :root {
     --padding: 3rem 2rem;
   }
+
+  .wrapper.projects {
+    padding-top: 1rem;
+  }
 }

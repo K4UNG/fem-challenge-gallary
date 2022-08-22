@@ -39,3 +39,104 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+@media (min-width: 780px) {
+    .filter__desktop {
+        display: unset;
+    }
+
+    .filter__mobile {
+        display: none;
+    }
+
+    .filter__top {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .filter__desktop:first-child {
+        text-align: left;
+    }
+
+    .filter__desktop:last-child {
+        text-align: right;
+    }
+
+    .filter__desktop button {
+        background-color: transparent;
+        border: 0;
+        color: var(--cyan);
+        cursor: pointer;
+    }
+
+    .sort__wrapper button {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 25px;
+        position: relative;
+    }
+
+    .marker {
+        display: inline-block;
+        width: 15px;
+        height: 5px;
+        background-color: var(--cyan);
+        position: absolute;
+        left: calc(100% + .5rem);
+        bottom: calc(50% - 3px);
+    }
+
+    .group__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: end;
+    }
+
+    .group__wrapper button {
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 30px;
+        position: relative;
+    }
+
+    .group__wrapper.selected button::before {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: var(--cyan);
+        right: calc(100% + .5rem);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .label {
+        font-weight: 300;
+        font-size: .8rem;
+        margin-bottom: .25rem;
+    }
+}
+
+@media (min-width: 1160px) {
+    .sort__wrapper button {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .group__wrapper button {
+        font-size: 1.5rem;
+    }
+
+    .group__wrapper.selected button::before {
+        width: 8px;
+        height: 8px;
+    }
+
+    .label {
+        margin-bottom: .5rem;
+    }
+}

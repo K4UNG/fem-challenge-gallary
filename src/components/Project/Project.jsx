@@ -16,7 +16,7 @@ export default function Project({ src, title, live, id }) {
           </div>
         </div>
       </div>
-      <h2 className={styles.title}>title</h2>
+      <h2 className={styles.title}>{title}</h2>
     </div>
   );
 }
