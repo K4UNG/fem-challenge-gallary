@@ -55,6 +55,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto 5px;
+    max-width: 500px;
 }
 
 .tags span {
@@ -64,6 +65,9 @@
 
 .image {
     width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
 }
 
 .links {
@@ -71,6 +75,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     margin: 1rem auto 2rem;
+    max-width: 300px;
 }
 
 .links a {
@@ -90,7 +95,7 @@
 
 .description {
     text-align: center;
-    margin-bottom: 5rem;
+    margin: 5rem;
 }
 
 .next {
@@ -108,4 +113,58 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+@media (min-width: 620px) {
+    .head {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .home {
+        grid-column: 2/3;
+    }
+
+    .back, .date {
+        grid-row: 1/2;
+    }
+
+    .back {
+        grid-column: 1/2;
+    }
+
+    .date {
+        grid-column: 3/4;
+        font-size: 1.2rem;
+    }
+
+    .title {
+        font-size: 2.25rem;
+        margin: 6rem 0;
+    }
+
+    .tags {
+        margin-bottom: 1rem;
+    }
+
+    .tags span {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        max-width: max-content;
+    }
+
+    .links a {
+        font-size: 1rem;
+        padding: 2px .5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        max-width: 1100px;
+    }
+
+    .next {
+        padding: .5rem 1rem;
+    }
 }
