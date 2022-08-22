@@ -1,8 +1,13 @@
 import Hero from "../components/Hero/Hero";
 import Featured from "../components/Featured/Featured";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    document.querySelector('html').classList.add('no-scroll')
+  }, [])
+
   return (
     <div className="wrapper">
       <Hero />
@@ -17,6 +22,7 @@ export default function Home() {
             delay: 2.2,
           },
         }}
+        onAnimationComplete={() => document.querySelector('html').classList.remove('no-scroll')}
       />
       <motion.div
         className="panel2"

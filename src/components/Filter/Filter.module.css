@@ -1,0 +1,41 @@
+.filter {
+    margin-bottom: 2.5rem;
+}
+
+.filter__top {
+    text-align: center;
+}
+
+.home img {
+    width: 30px;
+}
+
+.filter__desktop {
+    display: none;
+}
+
+.filter__mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    max-width: 300px;
+    margin: 1rem auto;
+}
+
+.filter__mobile label {
+    font-size: .85rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.dropdown select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--cyan);
+    color: var(--cyan);
+    font-size: 1rem;
+    cursor: pointer;
+}

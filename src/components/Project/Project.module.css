@@ -1,0 +1,51 @@
+.project img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+}
+
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-items: center;
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    transition: opacity 150ms ease;
+}
+
+.container:hover .hover,
+.container:focus .hover {
+    opacity: 1;
+}
+
+.buttons a {
+    color: var(--cyan);
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid var(--cyan);
+    padding: 0 15px;
+    border-radius: 15px;
+    transition: background-color 150ms ease, color 150ms ease;
+}
+
+.buttons a:hover {
+    background-color: var(--cyan);
+    color: black;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

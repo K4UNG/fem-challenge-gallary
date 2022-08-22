@@ -111,7 +111,7 @@ export default function Hero() {
       <div className={styles.background}>
         <div>
           <motion.img
-            initial={{ scale: 1.1 }}
+            initial={{ scale: 1.5 }}
             animate={{
               scale: 1,
               transition
