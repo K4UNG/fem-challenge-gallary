@@ -1,5 +1,6 @@
 import styles from "./Filter.module.css";
 import { Link } from "react-router-dom";
+import HomeBtn from "../HomeBtn/HomeBtn";
 
 export default function Filter() {
   return (
@@ -15,9 +16,10 @@ export default function Filter() {
         </div>
 
         <div>
-          <Link to="/" className={styles.home}>
+          {/* <Link to="/" className={styles.home} aria-label="home button">
             <img src="./images/home.svg" alt="home icon" />
-          </Link>
+          </Link> */}
+          <HomeBtn />
         </div>
 
         <div className={styles.filter__desktop}>

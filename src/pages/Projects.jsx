@@ -4,7 +4,7 @@ import styles from './Projects.module.css'
 
 export default function Projects() {
   return (
-    <div className="wrapper projects">
+    <div className="wrapper">
       <Filter />
 
       <div className={styles.projects}>
