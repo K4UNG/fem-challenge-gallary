@@ -1,31 +1,36 @@
 import styles from "./Detail.module.css";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate, Link, useParams } from "react-router-dom";
 import Back from "../components/Back/Back";
 import HomeBtn from "../components/HomeBtn/HomeBtn";
+import { motion } from 'framer-motion';
 
 export default function Detail() {
+  const data = require('../data.json')
+  const {id} = useParams();
+
+  const item = data.filter(item => item.id === id)[0]
+  const diff = ["newbie", "junior", "intermediate", "advanced"];
   const navigate = useNavigate();
   return (
     <div className={`wrapper ${styles.wrapper}`}>
       <div className={styles.head}>
         <Back onClick={() => navigate(-1)} className={styles.back} />
         <HomeBtn />
-        <div className={styles.date}>25. 4. 2022</div>
+        <div className={styles.date}>{item.date}</div>
       </div>
 
-      <h1 className={styles.title}>tip calculator</h1>
+      <h1 className={styles.title}>{item.title}</h1>
       <div className={styles.tags}>
-        <span>intermediate</span>
-        <span>React</span>
-        <span>SCSS</span>
+        <span>{diff[item.difficulty-1]}</span>
+        {item.tags.map(i => <span key={i}>{i}</span>)}
       </div>
 
-      <img src="/images/tip.png" alt="tip" className={styles.image} />
+      <motion.img layoutId={item.id} src={item.src} alt={item.title} className={styles.image} />
 
       <div className={styles.links}>
-        <a href="https://example.com">live demo</a>
-        <a href="https://example.com">github repo</a>
-        <a href="https://example.com">fem solution</a>
+        <a href={item.live} target="_blank" rel="noreferrer">live demo</a>
+        <a href={item.repo} target="_blank" rel="noreferrer">github repo</a>
+        <a href={item.solution} target="_blank" rel="noreferrer">fem solution</a>
       </div>
 
       <p className={styles.description}>

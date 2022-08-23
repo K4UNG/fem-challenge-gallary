@@ -1,11 +1,12 @@
 import styles from "./Project.module.css";
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 export default function Project({ src, title, live, id }) {
   return (
-    <div className={styles.project}>
+    <motion.div layout className={styles.project}>
       <div tabIndex="0" className={styles.container}>
-        <img src={src} alt="id" />
+        <motion.img layoutId={id} src={src} alt="id" />
 
         <div className={styles.hover}>
           <div className={styles.buttons}>
@@ -17,6 +18,6 @@ export default function Project({ src, title, live, id }) {
         </div>
       </div>
       <h2 className={styles.title}>{title}</h2>
-    </div>
+    </motion.div>
   );
 }

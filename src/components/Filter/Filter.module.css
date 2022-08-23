@@ -104,8 +104,8 @@
     .group__wrapper button.selected::before {
         content: '';
         position: absolute;
-        width: 5px;
-        height: 5px;
+        width: 7px;
+        height: 7px;
         border-radius: 50%;
         background-color: var(--cyan);
         right: calc(100% + .5rem);

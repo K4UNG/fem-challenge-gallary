@@ -2,11 +2,13 @@
     display: block;
     width: 100%;
     height: 100%;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .container {
     position: relative;
+    height: 250px;
+    background-color: rgb(31, 31, 31);
 }
 
 .hover {
@@ -46,7 +48,7 @@
     font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 @media (min-width: 870px) {

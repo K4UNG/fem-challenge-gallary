@@ -1,13 +1,9 @@
 import styles from "./Filter.module.css";
 import HomeBtn from "../HomeBtn/HomeBtn";
-import { useState } from "react";
 import { motion } from "framer-motion";
 
-export default function Filter() {
-  const [sort, setSort] = useState("date");
-  const [group, setGroup] = useState([]);
-
-  const langs = ["SCSS", "React", "CSS", "JavaScript"];
+export default function Filter({ sort, setSort, group, setGroup }) {
+  const langs = ["SCSS", "React", "CSS"];
 
   const clickHandler = (lang) => {
     if (group.includes(lang)) {
@@ -51,9 +47,15 @@ export default function Filter() {
                 key={lang}
                 onClick={() => clickHandler(lang)}
                 lang={lang}
-                className={group.includes(lang) ? styles.selected : ''}
+                className={group.includes(lang) ? styles.selected : ""}
               />
             ))}
+            <button
+              onClick={() => clickHandler("JS")}
+              className={group.includes("JS") ? styles.selected : ""}
+            >
+              JavaScript
+            </button>
           </div>
         </div>
       </div>
@@ -75,11 +77,19 @@ export default function Filter() {
         <div className={styles.dropdown}>
           <label htmlFor="group">group by</label>
           <br />
-          <select id="group">
-            <option value="react">React</option>
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-            <option value="scss">SCSS</option>
+          <select
+            id="group"
+            onChange={(e) => {
+              const value = e.target.value
+              if (value) setGroup([value]);
+              else setGroup([])
+            }}
+          >
+            <option value="">---</option>
+            <option value="React">React</option>
+            <option value="JS">JavaScript</option>
+            <option value="CSS">CSS</option>
+            <option value="SCSS">SCSS</option>
           </select>
         </div>
       </div>
