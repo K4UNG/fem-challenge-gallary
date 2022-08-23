@@ -101,7 +101,7 @@
         position: relative;
     }
 
-    .group__wrapper.selected button::before {
+    .group__wrapper button.selected::before {
         content: '';
         position: absolute;
         width: 5px;

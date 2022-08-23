@@ -36,7 +36,7 @@ export default function FeaturedItem({
             live
           </a>
           <a href={repo} target="_blank" rel="noreferrer">
-            demo
+            repo
           </a>
         </div>
 

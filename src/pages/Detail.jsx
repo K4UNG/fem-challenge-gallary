@@ -34,7 +34,7 @@ export default function Detail() {
         similique est necessitatibus sint!
       </p>
 
-      <Link className={styles.next} to="/projects/tip-calculator">
+      <Link className={styles.next} to="/projects/tip">
         <span>
           view next
           <br />

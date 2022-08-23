@@ -4,299 +4,324 @@
         "title": "Huddle landing page",
         "live": "https://k4ung1.netlify.app",
         "repo": "https://github.com/K4UNG/project-1-responsive-landing-page-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-tREixafzk",
         "difficulty": 2,
         "tags": ["HTML", "CSS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/huddle-landing-page.png",
+        "date": "23-2-2022"
     },
     {
         "id": "blogr-landing-page",
         "title": "Blogr landing page",
         "live": "https://k4ung2.netlify.app",
         "repo": "https://github.com/K4UNG/project-2-blogr-landing-page",
+        "solution": "https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-and-flexbox-zk55Xz-5r",
         "difficulty": 2,
         "tags": ["HTML", "CSS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/blogr-landing-page.png",
+        "date": "25-2-2022"
     },
     {
         "id": "tip-calculator",
         "title": "Tip Calculator",
         "live": "https://k4ung3.netlify.app",
         "repo": "https://github.com/K4UNG/project3-tip-calculator",
+        "solution": "https://www.frontendmentor.io/solutions/tip-calculator-using-javascript-css-grid-and-flexbox-tGW35uodx",
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/tip-calculator.png",
+        "date": "26-2-2022"
     },
     {
         "id": "nft-preview-card",
         "title": "NFT preview card",
         "live": "https://k4ung4.netlify.app",
         "repo": "https://github.com/K4UNG/project-4-nft-card",
+        "solution": "https://www.frontendmentor.io/solutions/nft-card-design-using-css-bZzxFci_k",
         "difficulty": 1,
         "tags": ["HTML", "CSS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/nft-preview-card.png",
+        "date": "27-2-2022"
     },
     {
         "id": "advice-generator",
         "title": "Advice generator",
         "live": "https://k4ung5.netlify.app",
         "repo": "https://github.com/k4ung/project-5-advice-generator",
+        "solution": "https://www.frontendmentor.io/solutions/advice-generator-using-css-flexbox-1_rZfxETw",
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/advice-generator.png",
+        "date": "28-2-2022"
     },
     {
         "id": "chat-app-illustration",
         "title": "Chat app illustration",
         "live": "https://k4ung6.netlify.app",
         "repo": "https://github.com/K4UNG/project-6-chat-app-illustration",
+        "solution": "https://www.frontendmentor.io/solutions/chat-app-illustration-using-css-flexbox-y2xdA3Cdw",
         "difficulty": 3,
         "tags": ["HTML", "CSS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/chat-app-illustration.png",
+        "date": "1-3-2022"
     },
     {
         "id": "pricing-component-with-toggle",
         "title": "Pricing component with toggle",
         "live": "https://k4ung7.netlify.app",
         "repo": "https://github.com/K4UNG/project-7-pricing-component-toggle",
+        "solution": "https://www.frontendmentor.io/solutions/pricing-component-with-a-toggle-N3hymqiFg",
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/pricing-component-with-toggle.png",
+        "date": "1-3-2022"
     },
     {
         "id": "social-media-dashboard",
         "title": "Social media dashboard",
         "live": "https://k4ung8.netlify.app",
         "repo": "https://github.com/K4UNG/project-8-social-media-dashboard",
+        "solution": "https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-using-css-grid-and-flexbox-dnaAt2AzG",
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/social-media-dashboard.png",
+        "date": "2-3-2022"
     },
     {
         "id": "time-tracking-dashboard",
         "title": "Time tracking dashboard",
         "live": "https://k4ung9.netlify.app",
         "repo": "https://github.com/K4UNG/project-9-time-tracking-dashboard",
+        "solution": "https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-css-grid-om17NS71V",
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/time-tracking-dashboard.png",
+        "date": "3-3-2022"
     },
     {
         "id": "e-commerce-product-page",
         "title": "E-commerce product page",
         "live": "https://k4ung10.netlify.app",
         "repo": "https://github.com/K4UNG/project-10-E-commerce-product-page",
+        "solution": "https://www.frontendmentor.io/solutions/ecommerce-product-page-using-flexbox-mobile-first-workflow-0vXupaVpT",
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/e-commerce-product-page.png",
+        "date": "7-3-2022"
     },
     {
         "id": "calculator-app",
         "title": "Calculator app",
         "live": "https://k4ung11.netlify.app",
         "repo": "https://github.com/K4UNG/project-11-caculator-app",
+        "solution": "https://www.frontendmentor.io/solutions/calculator-app-using-css-grid-javascript-LHNRTotXo",
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": true,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/calculator-app.png",
+        "date": "8-3-2022"
     },
     {
         "id": "room-homepage",
         "title": "Room homepage",
         "live": "https://k4ung12.netlify.app",
         "repo": "https://github.com/K4UNG/project-12-room-homepage",
+        "solution": "https://www.frontendmentor.io/solutions/room-homepage-with-a-slider-using-css-grid-and-flexbox-DbXdH4NIU",
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/room-homepage.png",
+        "date": "9-3-2022"
     },
     {
         "id": "manage-landing-page",
         "title": "Manage landing page",
         "live": "https://k4ung13.netlify.app",
         "repo": "https://github.com/K4UNG/project-13-manage-landing-page",
+        "solution": "https://www.frontendmentor.io/solutions/manage-landing-page-using-css-grid-flexbox-mobile-first-mNv3PpMcY",
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/manage-landing-page.png",
+        "date": "11-2-2022"
     },
     {
         "id": "job-listings-with-filtering",
         "title": "Job listings with filtering",
         "live": "https://k4ung14.netlify.app",
         "repo": "https://github.com/K4UNG/project-14-job-listing-with-filtering",
+        "solution": "https://www.frontendmentor.io/solutions/job-listings-with-filtering-ezrR1waWE",
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/job-listings-with-filtering.png",
+        "date": "19-3-2022"
     },
     {
         "id": "interactive-rating-component",
         "title": "Interactive rating component",
         "live": "https://k4ung15.netlify.app",
         "repo": "https://github.com/K4UNG/project-15-interactive-rating-component",
+        "solution": "https://www.frontendmentor.io/solutions/interactive-rating-component-M0qDe1ipw",
         "difficulty": 1,
         "tags": ["SCSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/interactive-rating-component.png",
+        "date": "19-3-2022"
     },
     {
         "id": "todo-app-with-drag-and-drop",
         "title": "Todo app",
         "live": "https://k4ung16.netlify.app",
         "repo": "https://github.com/K4UNG/project-16-todo-app-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/todo-app-with-drag-and-drop-feature-using-vanilla-javascript-nN3gPd8cU",
         "difficulty": 3,
         "tags": ["SCSS", "JS"],
         "featured": true,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/todo-app-with-drag-and-drop.png",
+        "date": "20-3-2022"
     },
     {
         "id": "rock-paper-scissor-game",
         "title": "Rock Paper Scissor",
         "live": "https://k4ung17.netlify.app",
         "repo": "https://github.com/K4UNG/project-17-rock-paper-scissors-game-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/rock-paper-scissors-lizard-spock-game-with-scss-vanilla-js-JZpxojcUY",
         "difficulty": 4,
         "tags": ["SCSS", "JS"],
         "featured": true,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/rock-paper-scissor-game.png",
+        "date": "22-3-2022"
     },
     {
         "id": "launch-countdown-timer",
         "title": "Launch countdown timer",
         "live": "https://k4ung18.netlify.app",
         "repo": "https://github.com/K4UNG/project-18-launch-countdown-timer-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/launch-countdown-timer-with-flip-animation-SyrQqQjz9",
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/launch-countdown-timer.png",
+        "date": "25-3-2022"
     },
     {
         "id": "id-address-tracker",
         "title": "IP address tracker",
         "live": "https://k4ung19.netlify.app",
         "repo": "https://github.com/K4UNG/project-19-ip-address-tracker-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/ip-address-tracker-rkFLOr3z9",
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/id-address-tracker.png",
+        "date": "26-3-2022"
     },
     {
         "id": "sunny-side-agency-landing-page",
         "title": "Sunny side agency landing page",
         "live": "https://k4ung20.netlify.app",
         "repo": "https://github.com/K4UNG/project-20-sunnyside-agent-landing-page",
+        "solution": "https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-using-sass-mobilefirst-ryD_Iu-Xq",
         "difficulty": 2,
         "tags": ["SCSS", "JS"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/sunny-side-agency-landing-page.png",
+        "date": "30-3-2022"
     },
     {
         "id": "tip-calculator-react",
         "title": "Tip calculator React",
         "live": "https://k4ung21.netlify.app",
         "repo": "https://github.com/K4UNG/project-21-tip-calculator-react",
+        "solution": "https://www.frontendmentor.io/solutions/tip-calculator-app-using-react-Sy9Bq6mBc",
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/tip-calculator-react.png",
+        "date": "25-4-2022"
     },
     {
         "id": "url-shortener",
         "title": "URL shortener",
         "live": "https://k4ung22.netlify.app",
         "repo": "https://github.com/K4UNG/project-22-url-shortener",
+        "solution": "https://www.frontendmentor.io/solutions/url-shortening-landing-page-using-react-SJFRXdbU5",
         "difficulty": 3,
         "tags": ["CSS", "React"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/url-shortener.png",
+        "date": "5-5-2022"
     },
     {
         "id": "rest-countries-api",
         "title": "Rest countries API",
         "live": "https://k4ung23.netlify.app",
         "repo": "https://github.com/K4UNG/project-23-rest-countries-api-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-using-react-ryKdU7CL9",
         "difficulty": 4,
         "tags": ["CSS", "React"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/rest-countries-api.png",
+        "date": "15-5-2022"
     },
     {
         "id": "expense-chart-component",
         "title": "Expense chart component",
         "live": "https://k4ung24.netlify.app",
         "repo": "https://github.com/K4UNG/project-24-expense-chart-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/expense-chart-component-using-react-Har05EjtgX",
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/expense-chart-component.png",
+        "date": "7-8-2022"
     },
     {
         "id": "interactive-card-detail-form",
         "title": "Interactive card detail form",
         "live": "https://k4ung25.netlify.app",
         "repo": "https://github.com/K4UNG/project-25-interactive-card-form-frontendmentor",
+        "solution": "https://www.frontendmentor.io/solutions/interactive-card-details-form-with-vanilla-js-Dl2lum9l7J",
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
         "description": "",
-        "src": "",
-        "date": ""
+        "src": "/screenshots/interactive-card-detail-form.png",
+        "date": "10-8-2022"
     }
 ]

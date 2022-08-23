@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function Featured() {
+  const data = require("../../data.json");
+
+  const diff = ["newbie", "junior", "intermediate", "advanced"];
+
   return (
     <div className={styles.featured}>
       <motion.h2
@@ -20,36 +24,21 @@ export default function Featured() {
       </motion.h2>
 
       <div className={styles.wrapper}>
-        <FeaturedItem
-          number="01"
-          title="tip calculator"
-          src="./images/tip.png"
-          live="/"
-          repo="/"
-          id="someid"
-          difficulty="Intermediate"
-          tags={["React", "CSS"]}
-        />
-        <FeaturedItem
-          number="02"
-          title="tip calculator"
-          src="./images/tip.png"
-          live="/"
-          repo="/"
-          id="someid"
-          difficulty="Intermediate"
-          tags={["React", "CSS"]}
-        />
-        <FeaturedItem
-          number="03"
-          title="tip calculator"
-          src="./images/tip.png"
-          live="/"
-          repo="/"
-          id="someid"
-          difficulty="Intermediate"
-          tags={["React", "CSS"]}
-        />
+        {data
+          .filter((item) => item.featured)
+          .map((item, i) => (
+            <FeaturedItem
+              key={item.id}
+              number={"0" + (i + 1).toString()}
+              title={item.title}
+              src={item.src}
+              live={item.live}
+              repo={item.repo}
+              id={item.id}
+              difficulty={diff[item.difficulty - 1]}
+              tags={item.tags}
+            />
+          ))}
       </div>
 
       <div className={styles.all__wrapper}>

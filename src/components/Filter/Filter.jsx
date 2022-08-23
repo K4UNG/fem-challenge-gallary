@@ -1,34 +1,59 @@
 import styles from "./Filter.module.css";
-import { Link } from "react-router-dom";
 import HomeBtn from "../HomeBtn/HomeBtn";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Filter() {
+  const [sort, setSort] = useState("date");
+  const [group, setGroup] = useState([]);
+
+  const langs = ["SCSS", "React", "CSS", "JavaScript"];
+
+  const clickHandler = (lang) => {
+    if (group.includes(lang)) {
+      setGroup((prev) => prev.filter((i) => i !== lang));
+    } else {
+      setGroup((prev) => [...prev, lang]);
+    }
+  };
+
   return (
     <div className={styles.filter}>
       <div className={styles.filter__top}>
         <div className={styles.filter__desktop}>
           <div className={styles.label}>sort by</div>
           <div className={styles.sort__wrapper}>
-            <button>date <span className={styles.marker} /></button>
-            <br/>
-            <button>difficutly <span className={styles.marker} /></button>
+            <button onClick={() => setSort("date")}>
+              date{" "}
+              {sort === "date" && (
+                <motion.span layoutId="marker" className={styles.marker} />
+              )}
+            </button>
+            <br />
+            <button onClick={() => setSort("difficulty")}>
+              difficutly
+              {sort === "difficulty" && (
+                <motion.span layoutId="marker" className={styles.marker} />
+              )}
+            </button>
           </div>
         </div>
 
         <div>
-          {/* <Link to="/" className={styles.home} aria-label="home button">
-            <img src="./images/home.svg" alt="home icon" />
-          </Link> */}
           <HomeBtn />
         </div>
 
         <div className={styles.filter__desktop}>
           <div className={styles.label}>group by</div>
           <div className={styles.group__wrapper}>
-            <button>SCSS</button>
-            <button>REACT</button>
-            <button>CSS</button>
-            <button>JAVASCRIPT</button>
+            {langs.map((lang) => (
+              <Button
+                key={lang}
+                onClick={() => clickHandler(lang)}
+                lang={lang}
+                className={group.includes(lang) ? styles.selected : ''}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -37,7 +62,11 @@ export default function Filter() {
         <div className={styles.dropdown}>
           <label htmlFor="sort">sort by</label>
           <br />
-          <select id="sort">
+          <select
+            id="sort"
+            value={sort}
+            onChange={(e) => setSort(e.target.value)}
+          >
             <option value="date">date</option>
             <option value="difficulty">difficulty</option>
           </select>
@@ -55,5 +84,13 @@ export default function Filter() {
         </div>
       </div>
     </div>
+  );
+}
+
+function Button({ lang, onClick, className }) {
+  return (
+    <button onClick={onClick} className={className}>
+      {lang}
+    </button>
   );
 }
