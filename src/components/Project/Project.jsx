@@ -1,10 +1,17 @@
 import styles from "./Project.module.css";
 import { Link } from "react-router-dom";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export default function Project({ src, title, live, id }) {
   return (
-    <motion.div layout className={styles.project}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duation: 0.05 }}
+      layout
+      className={styles.project}
+    >
       <div tabIndex="0" className={styles.container}>
         <img src={src} alt="id" />
 

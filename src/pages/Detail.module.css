@@ -22,6 +22,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
+    width: max-content;
 }
 
 .back svg:last-child {
@@ -31,7 +32,8 @@
     transition: 100ms ease;
 }
 
-.back:hover svg:last-child {
+.back:hover svg:last-child,
+.back:focus svg:last-child {
     left: 0;
     top: -1.5px;
 }
@@ -90,14 +92,16 @@
     transition: color 150ms ease, background-color 150ms ease;
 }
 
-.links a:hover {
+.links a:hover,
+.links a:focus {
     color: var(--dark-blue);
     background-color: var(--cyan);
+    outline: none;
 }
 
 .description {
     text-align: center;
-    margin: 5rem auto;
+    margin: 3rem auto 5rem;
 }
 
 .next {

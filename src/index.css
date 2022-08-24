@@ -11,6 +11,11 @@ a {
   cursor: pointer;
 }
 
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
 :root {
   --dark-blue: #1d222e;
   --cyan: #00E3B3;
@@ -95,8 +100,13 @@ body {
   transition: fill 100ms ease;
 }
 
-.homeBtn:hover svg {
+.homeBtn:hover svg,
+.homeBtn:focus svg {
   fill: var(--cyan);
+}
+
+.homeBtn:focus {
+  outline: 0;
 }
 
 @media (min-width: 1120px) {

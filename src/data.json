@@ -8,7 +8,7 @@
         "difficulty": 2,
         "tags": ["HTML", "CSS"],
         "featured": false,
-        "description": "This was my first ever frontend mentor challenge. Looking back now, I can't describe how excited I was when I first found out about these challenges. It was also the start of one of my productive days as a learning web dev.",
+        "description": "This was my first ever frontend mentor challenge. Looking back now, I can't describe how excited I was when I first found out about these challenges. It was also the start of one of my productive days as a learning web developer.",
         "src": "/screenshots/huddle-landing-page.png",
         "date": "23-February-2022",
         "next": "blogr-landing-page"
@@ -50,7 +50,7 @@
         "difficulty": 1,
         "tags": ["HTML", "CSS"],
         "featured": false,
-        "description": "After my JS lecture, I started trying out more JS challenges, starting with this fairly simple one. This one took me quite a while to figure out how to write the CSS for the hover state of the image.",
+        "description": "After my first JS project, I wanted to do some easier challenges starting with this fairly simple one. This one took me quite a while to figure out how to write the CSS for the hover state of the image.",
         "src": "/screenshots/nft-preview-card.png",
         "date": "27-February-2022",
         "next": "advice-generator"
@@ -78,7 +78,7 @@
         "difficulty": 3,
         "tags": ["HTML", "CSS"],
         "featured": false,
-        "description": "I was a CSS-enthusiast back then(it was what got me into web) and this was the perfect challenge for me to test my CSS skills. I also did another challenge on that same day which you can find in the next challenge below.",
+        "description": "I was a CSS-enthusiast back then(it was what got me into web) and this was the perfect challenge for me to test out my CSS skills. I also did another challenge on that same day which you can find in the next challenge below.",
         "src": "/screenshots/chat-app-illustration.png",
         "date": "1-March-2022",
         "next": "pricing-component-with-toggle"
@@ -134,7 +134,7 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "This was one of the unexpectedly hard challenges I did. I took me more than 12 hours to complete. The image view especially was quite hard getting it the way I wanted. The styling was also a bit challening which made me question my CSS grid/flexbox skills and revisit those in depth.",
+        "description": "This was one of those unexpectedly hard challenges I did. I took me more than 12 hours to complete. The image view, especially, was quite hard getting it the way I wanted. The styling was also a bit challening which made me question my CSS grid/flexbox skills and revisit those in depth.",
         "src": "/screenshots/e-commerce-product-page.png",
         "date": "7-March-2022",
         "next": "calculator-app"
@@ -148,7 +148,7 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": true,
-        "description": "This was one of my favorite challenges I did during my earlier days, especially the animations on the buttons were so satisfying. I also started experimenting with sounds in the challenge. For the calculator part, I just did what I thought was right and it was quite a mess but eventually I got it the way I wanted. I also plan to redo this challenge in the future to fill in some of the gaps and also add the keyboard support.",
+        "description": "This was one of my favorite challenges I did during my earlier days, especially the animations on the buttons were so satisfying. I also started experimenting with sounds in this challenge. For the calculator part, I just did what I thought was right and it was quite a mess but eventually I got it the way I wanted. I also plan to redo this challenge in the future to fill in some of the gaps and also add the keyboard support.",
         "src": "/screenshots/calculator-app.png",
         "date": "8-March-2022",
         "next": "room-homepage"
@@ -162,7 +162,7 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "I wanted to try making a image slider for this challenge and I wasn't sure if I'd be able to make one but it turned out to be easier than I expected. It also had a interesting grid layout that I enjoyed replicating in CSS.",
+        "description": "I wanted to try making a image slider for this challenge and I wasn't sure if I'd be able to make one but it turned out to be easier than I expected. It also had an interesting grid layout that I enjoyed replicating in CSS.",
         "src": "/screenshots/room-homepage.png",
         "date": "9-March-2022",
         "next": "manage-landing-page"
@@ -218,7 +218,7 @@
         "difficulty": 3,
         "tags": ["SCSS", "JS"],
         "featured": true,
-        "description": "Back then, I wanted to do everything from scratch with vanilla JS without the use of libraries. It's also the same for the case of this drag-and-drop todo app. I had to watch a handful of tutorials on drag events and eventually got it to how I wanted it to be. Unfortunately, the draggin doesn't work on touch devices. That's something I'd like to revisit in the future.",
+        "description": "Back then, I wanted to do everything from scratch with vanilla JS without the use of libraries. It's also the same for the case of this drag-and-drop todo app. I had to watch a handful of tutorials on drag events and eventually got it to how I wanted it to be. Unfortunately, the dragging doesn't work on touch devices. That's something I'd like to revisit in the future.",
         "src": "/screenshots/todo-app-with-drag-and-drop.png",
         "date": "20-March-2022",
         "next": "rock-paper-scissor-game"
@@ -232,7 +232,7 @@
         "difficulty": 4,
         "tags": ["SCSS", "JS"],
         "featured": true,
-        "description": "This one is still my all time favorite FEM challenge. I remember sharing this to all of my close friends to play after finsihing it. I tried to make it a SPA with only the use of vanilla JS for a seamless effect. I also added animations, sound effects and a lot more and it's also one of my proudest projects I did as a newbie. There're some issues like not removing eventListeners even after the elements are unmounted.",
+        "description": "This one is still my all time favorite FEM challenge. I remember sharing this to all of my close friends to play after finsihing it. I tried to make it a SPA with only the use of vanilla JS for a seamless effect. I also added animations, sound effects and a lot more and it's also one of my proudest projects I did as a newbie. There're some issues though, like not removing eventListeners even after the elements are unmounted, which I didn't know was an issue.",
         "src": "/screenshots/rock-paper-scissor-game.png",
         "date": "22-March-2022",
         "next": "launch-countdown-timer"
@@ -288,7 +288,7 @@
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "When I started learning JS, this tip calculator challenge was my first JS project. So it'd only be right if this was also my first React project. I familiarize myself with the core React features in this challenge.",
+        "description": "When I started learning JS, this tip calculator challenge was my first JS project. So it'd only be right if this was also my first React project. I familiarized myself with the core React features in this challenge.",
         "src": "/screenshots/tip-calculator-react.png",
         "date": "25-April-2022",
         "next": "url-shortener"
@@ -330,7 +330,7 @@
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "I did this project to warm up my React knowledge since it had been a while since I last wrote React. But I ended up unfinished for some weeks late which I came up with a better solution than I orignally had and finished the challenge.",
+        "description": "I did this project to warm up my React knowledge since it had been a while since I last wrote React. But it ended up being unfinished for some weeks, later which I came up with a better solution than what I orignally had and finished the challenge.",
         "src": "/screenshots/expense-chart-component.png",
         "date": "7-August-2022",
         "next": "interactive-card-detail-form"
@@ -344,7 +344,7 @@
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "This was a fairly new challenge when I did it and it basically includes a whole ton of form verifications. I went above and beyound for the verification process in this challenge which led it become a bit tedious but it was a great experience implementing little details for the verification. The styling of the cards was also a bit interesting.",
+        "description": "This was a fairly new challenge when I did it and it is basically all about form validation. I went above and beyound for the validation process in this challenge which led it become a bit tedious but it was a great experience implementing little details for the validation. The styling of the cards was also a bit interesting.",
         "src": "/screenshots/interactive-card-detail-form.png",
         "date": "10-August-2022",
         "next": "huddle-landing-page"

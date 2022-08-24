@@ -2,7 +2,7 @@ import Filter from "../components/Filter/Filter";
 import Project from "../components/Project/Project";
 import styles from "./Projects.module.css";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Projects() {
   const [sort, setSort] = useState("date");
@@ -28,10 +28,11 @@ export default function Projects() {
       <Filter sort={sort} setSort={setSort} group={group} setGroup={setGroup} />
 
       <div className={styles.projects}>
+        <AnimatePresence>
         {data
           .filter(
             (item) =>
-              group.some((i) => item.tags.includes(i)) || group.length === 0
+              group.every((i) => item.tags.includes(i)) || group.length === 0
           )
           .map((item) => {
             return (
@@ -44,6 +45,7 @@ export default function Projects() {
               />
             );
           })}
+          </AnimatePresence>
       </div>
     </motion.div>
   );

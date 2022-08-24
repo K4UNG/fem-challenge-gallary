@@ -1,0 +1,35 @@
+.wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 300px;
+}
+
+.home {
+    display: inline-block;
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: var(--cyan);
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border: 2px solid var(--cyan);
+    transition: color 150ms ease, background-color 150ms ease;
+    cursor: pointer;
+}
+
+.home:hover,
+.home:focus {
+    background-color: transparent;
+    color: var(--cyan);
+    outline: 0;
+}

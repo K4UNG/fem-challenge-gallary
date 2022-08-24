@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Detail from "./pages/Detail";
+import Page404 from "./pages/Page404";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<Detail />} />
           <Route path="/" element={<Home />} />
-          <Route path="*" element={<h1>404</h1>} />
+          <Route path="*" element={<Page404/>} />
         </Routes>
       </AnimatePresence>
   );
