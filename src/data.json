@@ -342,9 +342,9 @@
         "repo": "https://github.com/K4UNG/project-25-interactive-card-form-frontendmentor",
         "solution": "https://www.frontendmentor.io/solutions/interactive-card-details-form-with-vanilla-js-Dl2lum9l7J",
         "difficulty": 2,
-        "tags": ["CSS", "React"],
+        "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "This was a fairly new challenge when I did it and it is basically all about form validation. I went above and beyound for the validation process in this challenge which led it become a bit tedious but it was a great experience implementing little details for the validation. The styling of the cards was also a bit interesting.",
+        "description": "This was a fairly new challenge when I did it and it is basically all about form validation. I went above and beyound for the validation process in this challenge which led it become a bit tedious but it was a great experience implementing little details for the validation. The styling of the cards was also a bit interesting. I also went back to using vanilla JS just to revisit the basics.",
         "src": "/screenshots/interactive-card-detail-form.png",
         "date": "10-August-2022",
         "next": "huddle-landing-page"
