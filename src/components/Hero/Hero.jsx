@@ -88,7 +88,7 @@ export default function Hero() {
           <br />
           <a
             className={styles.button}
-            href="/"
+            href="https://www.example.com"
             rel="noreferrer"
             target="_blank"
           >
