@@ -17,7 +17,7 @@
     height: 25%;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to top, hsla(223, 20%, 18%, 0.6), transparent);
+    background-image: linear-gradient(to top, hsla(223, 20%, 18%, 0.8), transparent);
     display: grid;
     place-items: center;
     transition: opacity 150ms ease;
@@ -29,18 +29,14 @@
 }
 
 .buttons a {
-    color: var(--cyan);
+    color: var(--dark-blue);
+    background-color: var(--cyan);
     text-decoration: none;
     margin: 10px;
     border: 2px solid var(--cyan);
     padding: 0 15px;
     border-radius: 15px;
     transition: background-color 150ms ease, color 150ms ease;
-}
-
-.buttons a:hover {
-    background-color: var(--cyan);
-    color: black;
 }
 
 .title {
@@ -58,6 +54,16 @@
         background-color: hsla(223, 20%, 18%, 0.5);
         backdrop-filter: blur(4px);
         opacity: 0;
+    }
+
+    .buttons a {
+        background-color: transparent;
+        color: var(--cyan);
+    }
+
+    .buttons a:hover {
+        background-color: var(--cyan);
+        color: black;
     }
 }
 
