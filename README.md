@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# **<div align='center'>FEM gallery</div>**
+**<div align='center'>A collection of all my completed frontend mentor challenges</div>**
+**<div align="center"><a href='https://k4ung-fem.netlify.app' >Live site</a></div>**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### **Built with**
+- React
+- CSS module
+- Framer Motion
+- React router DOM
 
-## Available Scripts
+### **How it started**
 
-In the project directory, you can run:
+The other day, while I was browsing on frontendmentor, I came across a guy who had all his challenges in one single website. And I thought it'd be a great idea to do a gallery for my finished challenges.
 
-### `npm start`
+### **Idea**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I wanted to display all of my projects in a single website with the ability to sort them by date, difficulty or group them by the languages used. I also wanted to add some featured projects and details for all those projects including my opinions, live demo links, github repo and FEM solution links.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Design process**
 
-### `npm test`
+For the design, I wanted to try something different. I tried making the hero section look unique and a bit minimal. I also tried to use only two colors which was a bit challenging but it turned out nice and great.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![figma design screenshot](./images/figma.png)
 
-### `npm run build`
+### **Coding process**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I did all pages with the `mobile-first` workflow. The styling for the hero section of the home page was a bit tricky to make it responsive. After finishing all the styling, I added extra spice by adding some animation using a library called `framer-motion`. The most tedious part about this project was gathering all the data of the projects by hand into a json file. I was first planning to use Firebase to store the data but I just ended up using a `.json`  file in `src` folder. Then I added all the routings, loaded in all the data and implemented the sorting and group functionalities.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![hero section screenshot](./images/screenshot.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Overall opinion**
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, I think this was a really great project. I was able to practice my UI/UX skills designing this. This is also my first time using a library for animation so I learned a lot about framer motion as well and overall, it was an enjoyable experience.
