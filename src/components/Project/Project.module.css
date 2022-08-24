@@ -60,3 +60,9 @@
         opacity: 0;
     }
 }
+
+@media (min-width: 1650px) {
+    .container {
+        height: 300px;
+    }
+}
