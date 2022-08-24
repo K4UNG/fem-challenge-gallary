@@ -190,7 +190,7 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "This was my first time implementing content filtering in JS. If I knew some of the high order array methods, it'd have been a lot easier but I didn't so I just went with intuition as usual and I really enjoyed finishing it.",
         "src": "/screenshots/job-listings-with-filtering.png",
         "date": "19-March-2022",
         "next": "interactive-rating-component"
@@ -204,7 +204,7 @@
         "difficulty": 1,
         "tags": ["SCSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "I remember being one of the first people to finish this challenge when it first came out. Even the founder of FEM, Matt Studdert liked my solution and I earned his follow :) I got a bit creative with how it revealed the results by adding a flip animation using my CSS animation knowledge. It was also my first project where I used SCSS.",
         "src": "/screenshots/interactive-rating-component.png",
         "date": "19-March-2022",
         "next": "todo-app-with-drag-and-drop"
@@ -218,7 +218,7 @@
         "difficulty": 3,
         "tags": ["SCSS", "JS"],
         "featured": true,
-        "description": "",
+        "description": "Back then, I wanted to do everything from scratch with vanilla JS without the use of libraries. It's also the same for the case of this drag-and-drop todo app. I had to watch a handful of tutorials on drag events and eventually got it to how I wanted it to be. Unfortunately, the draggin doesn't work on touch devices. That's something I'd like to revisit in the future.",
         "src": "/screenshots/todo-app-with-drag-and-drop.png",
         "date": "20-March-2022",
         "next": "rock-paper-scissor-game"
@@ -232,7 +232,7 @@
         "difficulty": 4,
         "tags": ["SCSS", "JS"],
         "featured": true,
-        "description": "",
+        "description": "This one is still my all time favorite FEM challenge. I remember sharing this to all of my close friends to play after finsihing it. I tried to make it a SPA with only the use of vanilla JS for a seamless effect. I also added animations, sound effects and a lot more and it's also one of my proudest projects I did as a newbie. There're some issues like not removing eventListeners even after the elements are unmounted.",
         "src": "/screenshots/rock-paper-scissor-game.png",
         "date": "22-March-2022",
         "next": "launch-countdown-timer"
@@ -246,7 +246,7 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "Ah... this one! I love and hate this one. I really wanted to try making the flip animation of the timer with CSS and JS but I wasn't sure if I'd be able to so I tried it in my experimental files first and failed miserably. I just sat there all day trying to figure out how to sync the timing. I got frustrated after 2 days and left it as is for a few weeks. Then when I was pretty confident that I could do this, I started this challenge and it took me more than 2 days to get it exactly the way I wanted. I learned a lot about all the timing functions during this challenge.",
         "src": "/screenshots/launch-countdown-timer.png",
         "date": "25-March-2022",
         "next": "id-address-tracker"
@@ -260,7 +260,7 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "I didn't have the habit of reading Docs before this so it had me pretty confused because it involved working with two different APIs. But somehow I got it working by trying out different things. I'm also not very satisfied with how I got it so there's a high chance that I'll be revisiting this challenge in the future.",
         "src": "/screenshots/id-address-tracker.png",
         "date": "26-March-2022",
         "next": "sunny-side-agency-landing-page"
@@ -274,7 +274,7 @@
         "difficulty": 2,
         "tags": ["SCSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "For this challenge, I wanted to do it together with the community members in my Discord server so I engaged all of them to join me in creating this simple landing page, but only 2 of them joined and we shared our knowledge and solutions together.",
         "src": "/screenshots/sunny-side-agency-landing-page.png",
         "date": "30-March-2022",
         "next": "tip-calculator-react"
@@ -288,7 +288,7 @@
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "",
+        "description": "When I started learning JS, this tip calculator challenge was my first JS project. So it'd only be right if this was also my first React project. I familiarize myself with the core React features in this challenge.",
         "src": "/screenshots/tip-calculator-react.png",
         "date": "25-April-2022",
         "next": "url-shortener"
@@ -302,7 +302,7 @@
         "difficulty": 3,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "",
+        "description": "This project was for me to practice working with APIs in React and overall I learned a lot about some of the important hooks like useEffect and how to work with Async tasks in React.",
         "src": "/screenshots/url-shortener.png",
         "date": "5-May-2022",
         "next": "rest-countries-api"
@@ -316,7 +316,7 @@
         "difficulty": 4,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "",
+        "description": "I initially planned to use Redux for this project since it was what I've been learning at that time but it seemed like an overkill so I just used the regular useState hook. I also used the react router dom for routing.",
         "src": "/screenshots/rest-countries-api.png",
         "date": "15-May-2022",
         "next": "expense-chart-component"
@@ -330,7 +330,7 @@
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "",
+        "description": "I did this project to warm up my React knowledge since it had been a while since I last wrote React. But I ended up unfinished for some weeks late which I came up with a better solution than I orignally had and finished the challenge.",
         "src": "/screenshots/expense-chart-component.png",
         "date": "7-August-2022",
         "next": "interactive-card-detail-form"
@@ -344,7 +344,7 @@
         "difficulty": 2,
         "tags": ["CSS", "React"],
         "featured": false,
-        "description": "",
+        "description": "This was a fairly new challenge when I did it and it basically includes a whole ton of form verifications. I went above and beyound for the verification process in this challenge which led it become a bit tedious but it was a great experience implementing little details for the verification. The styling of the cards was also a bit interesting.",
         "src": "/screenshots/interactive-card-detail-form.png",
         "date": "10-August-2022",
         "next": "huddle-landing-page"
