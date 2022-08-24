@@ -6,7 +6,7 @@ export default function Project({ src, title, live, id }) {
   return (
     <motion.div layout className={styles.project}>
       <div tabIndex="0" className={styles.container}>
-        <motion.img layoutId={id} src={src} alt="id" />
+        <img src={src} alt="id" />
 
         <div className={styles.hover}>
           <div className={styles.buttons}>

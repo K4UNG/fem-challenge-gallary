@@ -2,6 +2,7 @@ import Filter from "../components/Filter/Filter";
 import Project from "../components/Project/Project";
 import styles from "./Projects.module.css";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const [sort, setSort] = useState("date");
@@ -17,7 +18,13 @@ export default function Projects() {
   }
 
   return (
-    <div className="wrapper">
+    <motion.div
+      initial={{ opacity: 0, y: -30 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 30 }}
+      transition={{duration: .5, ease: [0.36, -0.02, 0.68, 1]}}
+      className="wrapper"
+    >
       <Filter sort={sort} setSort={setSort} group={group} setGroup={setGroup} />
 
       <div className={styles.projects}>
@@ -38,6 +45,6 @@ export default function Projects() {
             );
           })}
       </div>
-    </div>
+    </motion.div>
   );
 }

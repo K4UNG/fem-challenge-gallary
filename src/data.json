@@ -8,9 +8,10 @@
         "difficulty": 2,
         "tags": ["HTML", "CSS"],
         "featured": false,
-        "description": "",
+        "description": "This was my first ever frontend mentor challenge. Looking back now, I can't describe how excited I was when I first found out about these challenges. It was also the start of one of my productive days as a learning web dev.",
         "src": "/screenshots/huddle-landing-page.png",
-        "date": "23-February-2022"
+        "date": "23-February-2022",
+        "next": "blogr-landing-page"
     },
     {
         "id": "blogr-landing-page",
@@ -21,9 +22,10 @@
         "difficulty": 2,
         "tags": ["HTML", "CSS"],
         "featured": false,
-        "description": "",
+        "description": "This was my second frontend mentor challenge. This one was particularly challenging to me because it involved working with background images which was quite new to me and I learned a lot from this one.",
         "src": "/screenshots/blogr-landing-page.png",
-        "date": "25-February-2022"
+        "date": "25-February-2022",
+        "next": "tip-calculator"
     },
     {
         "id": "tip-calculator",
@@ -34,9 +36,10 @@
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "I remember vividly, I was halfway through CS50 WEB and I couldn't wait but skip to the JS lecture because I wanted to do some JS projects so badly. After that I came straight to this challenge. It took me more than 12 hours finish but it was definitely worth it.",
         "src": "/screenshots/tip-calculator.png",
-        "date": "26-February-2022"
+        "date": "26-February-2022",
+        "next": "nft-preview-card"
     },
     {
         "id": "nft-preview-card",
@@ -47,9 +50,10 @@
         "difficulty": 1,
         "tags": ["HTML", "CSS"],
         "featured": false,
-        "description": "",
+        "description": "After my JS lecture, I started trying out more JS challenges, starting with this fairly simple one. This one took me quite a while to figure out how to write the CSS for the hover state of the image.",
         "src": "/screenshots/nft-preview-card.png",
-        "date": "27-February-2022"
+        "date": "27-February-2022",
+        "next": "advice-generator"
     },
     {
         "id": "advice-generator",
@@ -60,9 +64,10 @@
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "Not knowing exactly what an API is, I started this challenge anyway. I didn't know what async/await nor Promises were but I managed to implement the random advice generator API into this project through online help.",
         "src": "/screenshots/advice-generator.png",
-        "date": "28-February-2022"
+        "date": "28-February-2022",
+        "next": "chat-app-illustration"
     },
     {
         "id": "chat-app-illustration",
@@ -73,9 +78,10 @@
         "difficulty": 3,
         "tags": ["HTML", "CSS"],
         "featured": false,
-        "description": "",
+        "description": "I was a CSS-enthusiast back then(it was what got me into web) and this was the perfect challenge for me to test my CSS skills. I also did another challenge on that same day which you can find in the next challenge below.",
         "src": "/screenshots/chat-app-illustration.png",
-        "date": "1-March-2022"
+        "date": "1-March-2022",
+        "next": "pricing-component-with-toggle"
     },
     {
         "id": "pricing-component-with-toggle",
@@ -86,9 +92,10 @@
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "For this challenge, I wanted to try making a toggle button and the results were very rewarding. I also learned a trick to making a clean transition on the buttons with border without triggering any layout shifting.",
         "src": "/screenshots/pricing-component-with-toggle.png",
-        "date": "1-March-2022"
+        "date": "1-March-2022",
+        "next": "social-media-dashboard"
     },
     {
         "id": "social-media-dashboard",
@@ -99,9 +106,10 @@
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "Since I did the toggle button in the last challenge, I wanted to take it a step further and also implement dark/light mode. I started to note some accessibility issues I was having that I ignored before. As always, the results were incredibly rewarding and with a smooth transition, I couldn't stop pressing the toggle.",
         "src": "/screenshots/social-media-dashboard.png",
-        "date": "2-March-2022"
+        "date": "2-March-2022",
+        "next": "time-tracking-dashboard"
     },
     {
         "id": "time-tracking-dashboard",
@@ -112,9 +120,10 @@
         "difficulty": 2,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "This was another one of those challenges for me to practice JS and CSS. I had so much trouble trying to figure out how to set a hover state on the child without setting it also on the parent which was impossible. I learned a trick called 'sibling trick' to achieve it.",
         "src": "/screenshots/time-tracking-dashboard.png",
-        "date": "3-March-2022"
+        "date": "3-March-2022",
+        "next": "e-commerce-product-page"
     },
     {
         "id": "e-commerce-product-page",
@@ -125,9 +134,10 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "This was one of the unexpectedly hard challenges I did. I took me more than 12 hours to complete. The image view especially was quite hard getting it the way I wanted. The styling was also a bit challening which made me question my CSS grid/flexbox skills and revisit those in depth.",
         "src": "/screenshots/e-commerce-product-page.png",
-        "date": "7-March-2022"
+        "date": "7-March-2022",
+        "next": "calculator-app"
     },
     {
         "id": "calculator-app",
@@ -138,9 +148,10 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": true,
-        "description": "",
+        "description": "This was one of my favorite challenges I did during my earlier days, especially the animations on the buttons were so satisfying. I also started experimenting with sounds in the challenge. For the calculator part, I just did what I thought was right and it was quite a mess but eventually I got it the way I wanted. I also plan to redo this challenge in the future to fill in some of the gaps and also add the keyboard support.",
         "src": "/screenshots/calculator-app.png",
-        "date": "8-March-2022"
+        "date": "8-March-2022",
+        "next": "room-homepage"
     },
     {
         "id": "room-homepage",
@@ -151,9 +162,10 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "I wanted to try making a image slider for this challenge and I wasn't sure if I'd be able to make one but it turned out to be easier than I expected. It also had a interesting grid layout that I enjoyed replicating in CSS.",
         "src": "/screenshots/room-homepage.png",
-        "date": "9-March-2022"
+        "date": "9-March-2022",
+        "next": "manage-landing-page"
     },
     {
         "id": "manage-landing-page",
@@ -164,9 +176,10 @@
         "difficulty": 3,
         "tags": ["CSS", "JS"],
         "featured": false,
-        "description": "",
+        "description": "With a simple slider created in the last challenge, I also wanted to try adding the dragging and infinite sliding to the slider in this challenge but it was simply out of my scope at that point so I stuck with the simple looping slider.",
         "src": "/screenshots/manage-landing-page.png",
-        "date": "11-March-2022"
+        "date": "11-March-2022",
+        "next": "job-listings-with-filtering"
     },
     {
         "id": "job-listings-with-filtering",
@@ -179,7 +192,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/job-listings-with-filtering.png",
-        "date": "19-March-2022"
+        "date": "19-March-2022",
+        "next": "interactive-rating-component"
     },
     {
         "id": "interactive-rating-component",
@@ -192,7 +206,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/interactive-rating-component.png",
-        "date": "19-March-2022"
+        "date": "19-March-2022",
+        "next": "todo-app-with-drag-and-drop"
     },
     {
         "id": "todo-app-with-drag-and-drop",
@@ -205,7 +220,8 @@
         "featured": true,
         "description": "",
         "src": "/screenshots/todo-app-with-drag-and-drop.png",
-        "date": "20-March-2022"
+        "date": "20-March-2022",
+        "next": "rock-paper-scissor-game"
     },
     {
         "id": "rock-paper-scissor-game",
@@ -218,7 +234,8 @@
         "featured": true,
         "description": "",
         "src": "/screenshots/rock-paper-scissor-game.png",
-        "date": "22-March-2022"
+        "date": "22-March-2022",
+        "next": "launch-countdown-timer"
     },
     {
         "id": "launch-countdown-timer",
@@ -231,7 +248,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/launch-countdown-timer.png",
-        "date": "25-March-2022"
+        "date": "25-March-2022",
+        "next": "id-address-tracker"
     },
     {
         "id": "id-address-tracker",
@@ -244,7 +262,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/id-address-tracker.png",
-        "date": "26-March-2022"
+        "date": "26-March-2022",
+        "next": "sunny-side-agency-landing-page"
     },
     {
         "id": "sunny-side-agency-landing-page",
@@ -257,7 +276,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/sunny-side-agency-landing-page.png",
-        "date": "30-March-2022"
+        "date": "30-March-2022",
+        "next": "tip-calculator-react"
     },
     {
         "id": "tip-calculator-react",
@@ -270,7 +290,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/tip-calculator-react.png",
-        "date": "25-April-2022"
+        "date": "25-April-2022",
+        "next": "url-shortener"
     },
     {
         "id": "url-shortener",
@@ -283,7 +304,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/url-shortener.png",
-        "date": "5-May-2022"
+        "date": "5-May-2022",
+        "next": "rest-countries-api"
     },
     {
         "id": "rest-countries-api",
@@ -296,7 +318,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/rest-countries-api.png",
-        "date": "15-May-2022"
+        "date": "15-May-2022",
+        "next": "expense-chart-component"
     },
     {
         "id": "expense-chart-component",
@@ -309,7 +332,8 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/expense-chart-component.png",
-        "date": "7-August-2022"
+        "date": "7-August-2022",
+        "next": "interactive-card-detail-form"
     },
     {
         "id": "interactive-card-detail-form",
@@ -322,6 +346,7 @@
         "featured": false,
         "description": "",
         "src": "/screenshots/interactive-card-detail-form.png",
-        "date": "10-August-2022"
+        "date": "10-August-2022",
+        "next": "huddle-landing-page"
     }
 ]

@@ -5,11 +5,15 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    document.querySelector('html').classList.add('no-scroll')
-  }, [])
+    document.querySelector("html").classList.add("no-scroll");
+  }, []);
 
   return (
-    <div className="wrapper home">
+    <motion.div
+      className="wrapper home"
+      exit={{ opacity: 0, y: 30 }}
+      transition={{ duration: 0.5, ease: [0.36, -0.02, 0.68, 1] }}
+    >
       <Hero />
       <Featured />
       <motion.div
@@ -22,7 +26,9 @@ export default function Home() {
             delay: 2.2,
           },
         }}
-        onAnimationComplete={() => document.querySelector('html').classList.remove('no-scroll')}
+        onAnimationComplete={() =>
+          document.querySelector("html").classList.remove("no-scroll")
+        }
       />
       <motion.div
         className="panel2"
@@ -30,7 +36,7 @@ export default function Home() {
           scaleY: 0,
           transition: {
             duration: 1.2,
-            ease: [.36,-0.02,.68,1],
+            ease: [0.36, -0.02, 0.68, 1],
             delay: 2,
           },
         }}
@@ -45,6 +51,6 @@ export default function Home() {
           />
         </div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 }

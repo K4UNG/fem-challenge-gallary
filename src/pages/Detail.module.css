@@ -97,7 +97,7 @@
 
 .description {
     text-align: center;
-    margin: 5rem;
+    margin: 5rem auto;
 }
 
 .next {
@@ -115,6 +115,13 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+@media (max-width: 540px) {
+    .image {
+        height: 230px;
+        object-fit: cover;
+    }
 }
 
 @media (min-width: 620px) {
