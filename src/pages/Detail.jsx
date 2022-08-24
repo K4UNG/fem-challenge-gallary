@@ -3,14 +3,20 @@ import { useNavigate, Link, useParams } from "react-router-dom";
 import Back from "../components/Back/Back";
 import HomeBtn from "../components/HomeBtn/HomeBtn";
 import { motion } from "framer-motion";
+import Page404 from "./Page404";
 
 export default function Detail() {
   const data = require("../data.json");
   const { id } = useParams();
-
-  const item = data.filter((item) => item.id === id)[0];
-  const diff = ["newbie", "junior", "intermediate", "advanced"];
   const navigate = useNavigate();
+
+  let item = data.filter((item) => item.id === id)
+  if (item.length === 0) {
+    return <Page404 />
+  }
+  item = item[0]
+
+  const diff = ["newbie", "junior", "intermediate", "advanced"];
   return (
     <motion.div
       initial={{ opacity: 0, y: -30 }}
