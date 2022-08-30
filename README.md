@@ -1,6 +1,6 @@
 # **<div align='center'>FEM gallery</div>**
-**<div align='center'>A collection of all my completed frontend mentor challenges</div>**
-**<div align="center"><a href='https://k4ung-fem.netlify.app' >Live site</a></div>**
+## **<div align='center'>A collection of all my completed frontend mentor challenges</div>**
+## **<div align="center"><a href='https://k4ung-fem.netlify.app' >Live site</a></div>**
 
 ### **Built with**
 - React
