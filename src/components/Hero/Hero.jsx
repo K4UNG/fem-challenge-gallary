@@ -88,7 +88,7 @@ export default function Hero() {
           <br />
           <a
             className={styles.button}
-            href="https://www.example.com"
+            href="https://kaungzinhein.vercel.app/"
             rel="noreferrer"
             target="_blank"
           >
